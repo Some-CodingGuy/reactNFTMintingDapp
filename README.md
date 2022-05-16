@@ -4,14 +4,19 @@ This dapp will be an NFT minting dapp where users can come and mint NFTs
 
 Dev info related to hardhat:
 
-    Try running some of the following tasks:
+To deploy the contract to the set up network:
 
-    ```shell
-    npx hardhat accounts
-    npx hardhat compile
-    npx hardhat clean
-    npx hardhat test
-    npx hardhat node
-    node scripts/sample-script.js
-    npx hardhat help
-    ```
+```shell
+npx hardhat clean
+npx hardhat compile
+node scripts/sample-script.js
+npx hardhat verify --network networkName contractAddress
+```
+
+Other hardhat commands:
+```
+npx hardhat accounts
+npx hardhat test
+npx hardhat node
+npx hardhat help
+```
